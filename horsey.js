@@ -330,10 +330,10 @@ function horsey (el, options) {
       }
       li = li.nextSibling;
     }
-    if (!selection) {
-      move();
-    }
-    if (!selection) {
+    // if (!selection) {
+    //   move();
+    // }
+    if (!ul.children.length) {
       hide();
     }
   }
