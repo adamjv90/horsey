@@ -1,5 +1,3 @@
-'use strict';
-
 var sell = require('sell');
 var crossvent = require('crossvent');
 var bullseye = require('bullseye');
